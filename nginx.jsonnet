@@ -7,7 +7,7 @@ local k = import ".ksonnet-lib/ksonnet.beta.1/k.libsonnet";
 #  Configuration params
 # ========================
 local name = "nonroot-nginx";
-local namespace = "default";
+local namespace = "bamboo-demo";
 local image = "bitnami/nginx:1.12.1-r2";
 local replicas = 1;
 local ports = [
